@@ -1,0 +1,1060 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links li a span {
+  font-family: Poppins, sans-serif;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links .simplebar-wrapper .simplebar-mask .simplebar-content-wrapper .simplebar-content>li .sidebar-submenu li a {
+  font-family: Poppins, sans-serif;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+.page-wrapper .page-body-wrapper .page-title h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.page-wrapper .page-body-wrapper {
+  background-color: #f9f9f9;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:focus {
+  border-color: #225588;
+  color: #225588;
+  background-color: transparent !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+  color: white;
+  background-color: #225588 !important;
+  border-color: #225588 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: #225588;
+  background-color: transparent !important;
+}
+
+h3,
+.h3 {
+  font-weight: 400;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.font-size-90 {
+  font-size: 90% !important;
+}
+
+.text-secondary {
+  color: rgb(108, 117, 125) !important;
+}
+
+.mt-1,
+.my-1 {
+  margin-top: 0.25rem !important;
+}
+
+.topbar-divider {
+  width: 0px;
+  height: calc(2.375rem);
+  margin: auto 0.2rem;
+  border-right: 1px solid #f0f2f5;
+}
+
+.page-wrapper .page-header .header-wrapper .nav-right .profile-dropdown {
+  left: unset;
+}
+
+.has-error {
+  border-color: #ea5252 !important;
+  background-color: #fff7f7 !important;
+}
+
+.form-control:focus {
+  outline: none !important;
+  border-color: var(--theme-deafult);
+  box-shadow: 0 0 5px var(--theme-deafult);
+
+}
+
+.form-select:focus {
+  outline: none !important;
+  border-color: var(--theme-deafult);
+  box-shadow: 0 0 5px var(--theme-deafult);
+}
+
+.autocomplete-active {
+  border: solid 1px var(--theme-deafult);
+}
+
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .logo-wrapper img,
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .logo-icon-wrapper img {
+  height: 45px;
+}
+
+.logo-wrapper {
+  text-align: center;
+}
+
+.login-form .form-group .input-group-text {
+  color: #225588;
+}
+
+.login-card {
+  background-color: #225588;
+}
+
+.card {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 5%);
+
+}
+
+.card .card-header h5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.card-absolute .card-header h5 {
+  font-size: 15px;
+}
+
+/*Team attendance Card*/
+
+.avatarimg {
+  position: absolute;
+  left: 0px;
+  right: 0;
+  top: -50px;
+  text-align: center;
+}
+
+.teamcolinner {
+  position: relative;
+}
+
+.avatarimg>img {
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(170 170 173/ 1);
+  box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
+}
+
+.teamcolinner {
+  position: relative;
+  border: 1px dashed #ddd;
+  min-height: 205px;
+  background: #fff;
+  z-index: 9;
+}
+
+.teamcol {
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  transition: transform 1s ease-in-out;
+}
+
+.teamcol:before {
+  content: "";
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: -webkit-linear-gradient(#ffbf00, #ffa000);
+  border-top-right-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+
+.teamcol:after {
+  content: "";
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(#0052cc, #005fec);
+  border-bottom-left-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+
+.member-name {
+  margin-top: 80px;
+}
+
+.member-info {
+  padding: 10px 20px;
+}
+
+
+/* check box  */
+
+.inputGroup {
+
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.img-50 {
+  height: 50px;
+}
+
+.ui-menu-item {
+  background: #e5e5e5;
+}
+
+.page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .simplebar-offset {
+  height: calc(100vh - 100px);
+}
+
+/*Check Box Team Attendance*/
+
+label {
+  display: inline;
+}
+
+.regular-checkbox {
+  display: none;
+}
+
+.regular-checkbox+label {
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.regular-checkbox+label:active,
+.regular-checkbox:checked+label:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.regular-checkbox:checked+label {
+  background-color: #e9ecee;
+  border: 1px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+  color: #225588;
+}
+
+.regular-checkbox:checked+label:after {
+  content: '\2714';
+  font-size: 28px;
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  color: #225588;
+}
+
+.big-checkbox+label {
+  padding: 18px;
+}
+
+.tag {
+  width: 100px;
+  position: relative;
+  top: 9px;
+}
+
+.big-checkbox+label {
+  padding: 18px;
+}
+
+
+.dataTables_wrapper .dataTables_filter input[type="search"] {
+
+  border: 1px solid #225588;
+}
+
+
+/* New Hires */
+
+.our-team {
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+.our-team img {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.our-team .title {
+  margin: 0 0 10px;
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e2f65;
+}
+
+.our-team .content .post {
+  margin: 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  flex-wrap: wrap;
+  color: #1e2f65;
+}
+
+@media screen and (max-width: 990px) {
+  .our-team {
+    margin-bottom: 30px;
+  }
+}
+
+.candidate_hr {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+  background: #adadad;
+}
+
+/*New Hires End */
+
+.pageLoader {
+  background: url(../images/loader.gif) no-repeat center center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+  background-color: #ffffff8c;
+
+}
+
+/*Dashboard New Job List*/
+
+
+.color-sec {
+  background-color: #eee5ff;
+  position: relative;
+  background-image: url(https://demo.dashboardpack.com/analytic-html/img/plane_thumb.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 58% !important;
+  background-position: top left;
+}
+
+.color-sec .card .card-body {
+  background: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 40px;
+  padding: 30px 70px;
+  position: relative;
+  margin: 200px 15px 0;
+  bottom: 15px;
+}
+
+.bg-none {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+
+
+/*Interview Rounds Job*/
+
+#sort-1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sort-1 li {
+  margin: 0 5px 20px 5px;
+  padding: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 18px;
+  height: auto;
+}
+
+#status li {
+  margin: 0 5px 20px 5px;
+  padding: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 18px;
+  height: auto;
+}
+
+.sortable-list .item {
+  list-style: none;
+  display: flex;
+  cursor: move;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 11px;
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.06); */
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem 0.75rem 0.75rem;
+  background: #fff;
+  box-shadow: 4px 4px 16px #e1e1e1, -2px -2px 16px #fff;
+  border-radius: 2.5rem;
+}
+
+.item .details {
+  display: flex;
+  align-items: center;
+}
+
+.item .details img {
+  height: 43px;
+  width: 43px;
+  pointer-events: none;
+  margin-right: 12px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.item .details span {
+  font-size: 1.13rem;
+}
+
+.item i {
+  color: #474747;
+  font-size: 1.13rem;
+}
+
+.item.dragging {
+  opacity: 0.6;
+}
+
+.item.dragging :where(.details, i) {
+  opacity: 0;
+}
+
+.bg-grad {
+  background-image: linear-gradient(to right, #1ebe5d, #02bae8);
+}
+
+.no-border {
+  border: none !important;
+}
+
+/*Job Inteeview View*/
+#mediumBody ul {
+  counter-reset: index;
+  padding: 0;
+}
+
+/* List element */
+#mediumBody li {
+  counter-increment: index;
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+
+
+/* Element counter */
+#mediumBody li::before {
+  content: counters(index, ".", decimal-leading-zero);
+  font-size: 1.8rem;
+  text-align: right;
+  font-weight: bold;
+  min-width: 50px;
+  padding-right: 12px;
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+  align-self: flex-start;
+  background-image: linear-gradient(to bottom, #1ebe5d, #02bae8);
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 0.5em;
+}
+
+.customizer-contain {
+  width: 25% !Important;
+  right: -25% !important;
+
+
+}
+
+.customizer-contain.open {
+
+  right: 0 !important;
+}
+
+
+.single-team {
+  background: #fff;
+  padding: 20px 20px 20px 20px;
+  transition: .4s;
+  border-radius: 6px;
+}
+
+.single-team .team-title {
+  margin-bottom: 10px;
+}
+
+.single-team .team-title .title {
+  color: #38475a;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 1px;
+}
+
+.single-team .team-title .pera {
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  font-size: 14px;
+  color: #84869a;
+}
+
+
+.single-team .team-img {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.p {
+  color: #84869a !important;
+}
+
+.b-color {
+
+  border-color: #f1f1f1 !important;
+}
+
+.single-team .team-img img {
+  border-radius: 50%;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+
+}
+
+.customizer-contain .customizer-header {
+
+  border-bottom: none !important;
+}
+
+/*--------------Interview Schedule Status--------------------*/
+#schedule-interview .customizer-contain.open {
+  width: 35% !important;
+
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+  margin: 5% 10% 5% auto;
+}
+
+.timeline__event {
+  background: #fff;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.timeline__event__title {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #9251ac;
+  letter-spacing: 1.5px;
+}
+
+.timeline__event__content {
+  padding: 20px;
+}
+
+.timeline__event__date {
+  color: #f6a4ec;
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.timeline__event__icon {
+  border-radius: 8px 0 0 8px;
+  background: #9251ac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 40%;
+  font-size: 2rem;
+  color: #9251ac;
+  padding: 20px;
+}
+
+.timeline__event__icon i {
+  position: absolute;
+  top: 50%;
+  left: -65px;
+  font-size: 2.5rem;
+  transform: translateY(-50%);
+}
+
+.timeline__event__description {
+  flex-basis: 60%;
+}
+
+.timeline__event:after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: #9251ac;
+  position: absolute;
+  top: 52%;
+  left: -3.5rem;
+  z-index: -1;
+}
+
+.timeline__event:before {
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  background: #f6a4ec;
+  border-radius: 100%;
+  left: -6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid #9251ac;
+}
+
+.timeline__event--type2:before {
+  background: #87bbfe;
+  border-color: #555ac0;
+}
+
+.timeline__event--type2:after {
+  background: #555ac0;
+  border-color: #555ac0;
+}
+
+.timeline__event--type2 .timeline__event__date {
+  color: #87bbfe;
+}
+
+.timeline__event--type2 .timeline__event__icon {
+  background: #555ac0;
+  color: #555ac0;
+}
+
+.timeline__event--type2 .timeline__event__title {
+  color: #555ac0;
+}
+
+.timeline__event--type3:before {
+  background: #aff1b6;
+  border-color: #24b47e;
+}
+
+.timeline__event--type3:after {
+  background: #24b47e;
+}
+
+.timeline__event--type3 .timeline__event__date {
+  color: #aff1b6;
+}
+
+.timeline__event--type3 .timeline__event__icon {
+  background: #24b47e;
+  color: #24b47e;
+}
+
+.timeline__event--type3 .timeline__event__title {
+  color: #24b47e;
+}
+
+.timeline__event:last-child:after {
+  content: none;
+}
+
+@media (max-width: 786px) {
+  .timeline__event {
+    flex-direction: column;
+  }
+
+  .timeline__event__icon {
+    border-radius: 4px 4px 0 0;
+  }
+}
+
+/*-----------------------------------*/
+
+.ui-front {
+
+  z-index: 9999 !important;
+}
+
+/*-------------Interviwe Round---Job Offer----Index----------------------*/
+.display1 tbody tr {
+  box-shadow: 0px 4px 30px rgb(94 94 231 / 7%) !important;
+}
+
+.display1 tbody tr td {
+  vertical-align: middle;
+  padding: 25px 40px !important;
+  padding-right: 10px !important;
+  border: none;
+  /*border-bottom: 10px solid #f9f9f9;*/
+}
+
+.gfg {
+  border-spacing: 0 15px !important;
+  border: none !important;
+}
+
+.text-pink span {
+  color: #ea3f61 !important;
+}
+
+.text-yellow span {
+  color: #f19632 !important;
+}
+
+.text-green span {
+  color: #1ab16b !important;
+}
+
+.card-bg-pink {
+  background-color: #ea3f61 !important;
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0 !important;
+}
+
+.card-bg-yellow {
+  background-color: #f19632 !important;
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0 !important;
+}
+
+.card-bg-purple {
+  background-color: #6346e6 !important;
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0 !important;
+}
+
+.card-bg-green {
+  background-color: #1ab16b !important;
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0 !important;
+}
+
+.color-purple {
+  color: #6346e6 !important;
+}
+
+
+/*------------Interview Schedule----------------*/
+
+.int-btn {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 10px 28px;
+  width: 100%;
+}
+
+/*-------------------Scroll Job Description-----------------------------*/
+
+.scroll-demo {
+  border: none !important;
+  height: 425px !important;
+}
+
+.blog-list .blog-details p {
+  display: block !important;
+}
+
+
+.blog-list .blog-details hr {
+  display: block !important;
+}
+
+/*-----------------------Birthday-----------------------------------*/
+.confetti .icon {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 32px;
+  position: relative;
+  text-align: center;
+}
+
+.confetti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.confetti-piece {
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  background: #ffd300;
+  top: 0;
+  opacity: 0;
+}
+
+.confetti-piece:nth-child(1) {
+  left: 7%;
+  transform: rotate(-57deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 314ms;
+  animation-delay: 314ms;
+  -webkit-animation-duration: 1194ms;
+  animation-duration: 1194ms;
+}
+
+.confetti-piece:nth-child(2) {
+  left: 14%;
+  transform: rotate(59deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 382ms;
+  animation-delay: 382ms;
+  -webkit-animation-duration: 723ms;
+  animation-duration: 723ms;
+}
+
+.confetti-piece:nth-child(3) {
+  left: 21%;
+  transform: rotate(50deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 162ms;
+  animation-delay: 162ms;
+  -webkit-animation-duration: 768ms;
+  animation-duration: 768ms;
+}
+
+.confetti-piece:nth-child(4) {
+  left: 28%;
+  transform: rotate(38deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 439ms;
+  animation-delay: 439ms;
+  -webkit-animation-duration: 1122ms;
+  animation-duration: 1122ms;
+}
+
+.confetti-piece:nth-child(5) {
+  left: 35%;
+  transform: rotate(46deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 126ms;
+  animation-delay: 126ms;
+  -webkit-animation-duration: 1019ms;
+  animation-duration: 1019ms;
+}
+
+.confetti-piece:nth-child(6) {
+  left: 42%;
+  transform: rotate(21deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 109ms;
+  animation-delay: 109ms;
+  -webkit-animation-duration: 995ms;
+  animation-duration: 995ms;
+}
+
+.confetti-piece:nth-child(7) {
+  left: 49%;
+  transform: rotate(67deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 354ms;
+  animation-delay: 354ms;
+  -webkit-animation-duration: 1112ms;
+  animation-duration: 1112ms;
+}
+
+.confetti-piece:nth-child(8) {
+  left: 56%;
+  transform: rotate(71deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 290ms;
+  animation-delay: 290ms;
+  -webkit-animation-duration: 1045ms;
+  animation-duration: 1045ms;
+}
+
+.confetti-piece:nth-child(9) {
+  left: 63%;
+  transform: rotate(-75deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 113ms;
+  animation-delay: 113ms;
+  -webkit-animation-duration: 1045ms;
+  animation-duration: 1045ms;
+}
+
+.confetti-piece:nth-child(10) {
+  left: 70%;
+  transform: rotate(-5deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 390ms;
+  animation-delay: 390ms;
+  -webkit-animation-duration: 701ms;
+  animation-duration: 701ms;
+}
+
+.confetti-piece:nth-child(11) {
+  left: 77%;
+  transform: rotate(61deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 312ms;
+  animation-delay: 312ms;
+  -webkit-animation-duration: 905ms;
+  animation-duration: 905ms;
+}
+
+.confetti-piece:nth-child(12) {
+  left: 84%;
+  transform: rotate(56deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 215ms;
+  animation-delay: 215ms;
+  -webkit-animation-duration: 775ms;
+  animation-duration: 775ms;
+}
+
+.confetti-piece:nth-child(13) {
+  left: 91%;
+  transform: rotate(15deg);
+  -webkit-animation: makeItRain 1000ms infinite ease-out;
+  animation: makeItRain 1000ms infinite ease-out;
+  -webkit-animation-delay: 403ms;
+  animation-delay: 403ms;
+  -webkit-animation-duration: 1124ms;
+  animation-duration: 1124ms;
+}
+
+.confetti-piece:nth-child(odd) {
+  background: #17d3ff;
+}
+
+.confetti-piece:nth-child(even) {
+  z-index: 1;
+}
+
+.confetti-piece:nth-child(4n) {
+  width: 5px;
+  height: 12px;
+  -webkit-animation-duration: 2000ms;
+  animation-duration: 2000ms;
+}
+
+.confetti-piece:nth-child(3n) {
+  width: 3px;
+  height: 10px;
+  -webkit-animation-duration: 2500ms;
+  animation-duration: 2500ms;
+  -webkit-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+.confetti-piece:nth-child(4n-7) {
+  background: #ff4e91;
+}
+
+@-webkit-keyframes makeItRain {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(200px);
+  }
+}
+
+@keyframes makeItRain {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(200px);
+  }
+}
+
+/*-----------------CArd Border Gradient-------------------*/
+.border-grad-card {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+
+.popover{
+
+  z-index: 999999999 !important;
+}
+
+/*-----------------------HR Feedback Show Page Question Color ---------------------*/
+
+.title-color h5{
+  color: #0984ff !important;
+}
+
