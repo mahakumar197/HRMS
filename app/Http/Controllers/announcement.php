@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\AnnoncementMail;
 use Illuminate\Http\Request;
-
+use App\Models\likes_comments;
 use App\Models\AnnouncementModel;
 use Illuminate\Support\Facades\Mail;
 
@@ -147,4 +147,33 @@ class announcement extends Controller
 
         return json_encode(['location' => '/tinymce_images/' . $filename]);
     }
+public function likeAnnouncement(Request $request, $announcement_id, $user_id)
+{
+    dd($request);
+    $user = auth()->user();
+
+    $likeComment = likes_comments::firstOrNew([
+        'user_id' => $user->id,
+        'announcement_id' => $announcement_id,
+    ]);
+
+    $likeComment->like = true;
+    $likeComment->save();
+
+    return redirect()->back();
+}
+public function commentAnnouncement(Request $request, Announcement $announcement)
+{
+    $user = auth()->user();
+
+    $likeComment = new likes_comments([
+        'user_id' => $user->id,
+        'announcement_id' => $announcement->id,
+        'comments' => $request->input('comments'),
+    ]);
+
+    $likeComment->save();
+
+    return redirect()->back();
+}
 }

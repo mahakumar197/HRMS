@@ -32,6 +32,21 @@
                 <h4>
                   {{$announcement->title}}
                 </h4>
+                <!-- Like Button -->
+<form action="{{ route('announcement.like', ['announcement_id' => $announcement->id, 'user_id' => auth()->id()]) }}" method="post">
+    @csrf
+    <button type="submit">Like</button>
+</form>
+
+
+
+<!-- Comment Form -->
+<form action="{{ route('announcement.comment', $announcement) }}" method="post">
+    @csrf
+    <textarea name="comment" rows="3" placeholder="Write a comment"></textarea>
+    <button type="submit">Comment</button>
+</form>
+
                 <div class="single-blog-content-top">
                   <p>{!! $announcement->description !!}</p>
                   <!--<p>{{strip_tags(htmlspecialchars_decode($announcement->description))}}</p>-->

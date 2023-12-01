@@ -222,6 +222,11 @@ Route::group(['middleware' => 'prevent-back-history'], function () {
         Route::resource('holiday', holiday::class)->middleware('auth');
         Route::POST('announcement-show/{id}', [announcement::class, 'show'])->middleware('auth');
         Route::get('announcement-show/{id}', [announcement::class, 'show'])->middleware('auth');
+       
+Route::post('/announcement/{announcement_id}/{user_id}',[announcement::class, 'likeAnnouncement'])->name('announcement.like');
+
+        Route::post('/announcement/{announcement}/comment', [announcement::class, 'commentAnnouncement'])->name('announcement.comment');
+
         Route::get('/cancel/{id}', [LeaveApplicationController::class, 'cancel'])->middleware('auth');
         Route::POST('cancel', [LeaveApplicationController::class, 'cancel'])->name('cancel');
         Route::get('/approvedcancel/{id}', [ManageLeaveApplicationController::class, 'cancel'])->middleware('auth');
